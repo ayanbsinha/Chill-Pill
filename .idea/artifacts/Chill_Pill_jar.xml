@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Chill-Pill:jar">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="root">
+      <element id="module-output" name="Chill-Pill" />
+    </root>
+  </artifact>
+</component>

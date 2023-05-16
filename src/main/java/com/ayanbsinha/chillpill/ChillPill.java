@@ -15,9 +15,9 @@ public class ChillPill {
     static{
         alert();
         System.out.println("***** Take A Chill-Pill *****");
-        System.out.println("# Keeps Your System Engage.");
         System.out.println("# Helps To Keeps Your Eyes Strain Free.");
         System.out.println("# Helps To Stay Hydrated.");
+        System.out.println("# Note : Running this application may avoid system to sleep or lock when ideal");
         System.out.println("Launching Chill-Pill......... \n\n");
     }
     public static void main(String[] args) {
