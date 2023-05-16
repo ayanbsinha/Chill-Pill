@@ -34,7 +34,7 @@ public class ChillPill {
                     throw new RuntimeException(e);
                 }
             }
-        }, 0, 59, TimeUnit.SECONDS);
+        }, 0, 45, TimeUnit.SECONDS);
 
         // Thread 2: Runs every 20 minutes
         executor.scheduleWithFixedDelay(new Runnable() {
@@ -76,8 +76,8 @@ public class ChillPill {
         }
         private static void t2020Rule() throws LineUnavailableException, InterruptedException {
             buzz();
-            System.out.println(getDateTime() +" : Relax your eyes by taking a 20-second break following the 20-20-20 rule.");
-            Thread.sleep(20000);
+            System.out.println(getDateTime() +" : Relax your eyes by looking at object kept 20 feet away for 20-second and wait for next buzz follow the 20-20-20 rule.");
+            Thread.sleep(25000);
             buzz();
             System.out.println(getDateTime() +" : Lets resume to work.");
         }
